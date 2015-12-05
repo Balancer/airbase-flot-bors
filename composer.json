@@ -1,0 +1,25 @@
+{
+	"name": "balancer/flot-bors",
+	"description": "Flot.ml sources",
+	"homepage": "http://flot.ml/",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Roman =Balancer= Karshiev",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+	"require": {
+		"balancer/airbase-bors": "*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Ml\\Flot\\": [ "src/" ]
+		}
+	}
+}
